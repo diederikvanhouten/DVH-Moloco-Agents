@@ -154,6 +154,16 @@ When /skill-weekly-brief runs, it must call this skill immediately before genera
 - Strip noise tokens from both sides: "Weekly", "Bi-weekly", "Sync", "Meeting", "1:1", "1x1", "Call", "Zoom", "Wkly".
 - Match if: (a) ≥1 person name appears in both (first name sufficient), OR (b) ≥60% token overlap of the shorter title.
 - Known alias map (replace with your own): "Frenzo" ↔ "Francesco Renzo"; "DJ" ↔ "Donghwan Jeon"; "Paankhuri" ↔ "ACE"; "Rahul" ↔ "CTV"; "Aparna" ↔ "Ecosystems"; "Willamette" ↔ "Tal".
+  - "JL" ↔ "Jean-Luc Nahon"
+  - "Ethan" ↔ "Ethan Kottke"
+  - "Emilien" ↔ "Emilien Pouradier"
+  - "Doug" ↔ "Doug Pereira"
+  - "Ernest" ↔ "Ernest Yip"
+  - "Hyunjoon" ↔ "Hyunjoon Choi"
+  - "Guillem" ↔ "Guillem Sanchez"
+  - "Sailesh" ↔ "Sailesh Mohapatra"
+  - "Santiago" ↔ "Santiago Melo"
+  - "Ruoyu" ↔ "Ruoyu Zhu"
 - **Match outcomes:**
   - **Confident (≥60% overlap or name match):** Proceed with write.
   - **Ambiguous (30–59%):** Flag for confirmation before writing. Surface both titles: *"Is '[Zoom topic]' the same as '[Notion title]'? (y/n)"*
