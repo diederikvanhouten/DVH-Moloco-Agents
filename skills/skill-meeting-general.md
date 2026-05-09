@@ -9,13 +9,13 @@
 ---
 
 ## Preconditions
-1. Fetch your operating rules / system index — hard gate. Halt if unreachable.
-2. Check your meeting briefs store for an existing brief for this meeting date and title. If found, surface and ask. If not, proceed.
+1. Fetch Operating Rules page (`35bcdb3513368176a3a6f9c18ac43233`) — hard gate. Halt if unreachable.
+2. Check Meeting Briefs (`35bcdb351336817f990ede78e968f26f`) for an existing brief for this meeting date and title. If found, surface and ask. If not, proceed.
 
 ---
 
 ## Execution Steps
-1. Read your strategic priorities database.
+1. Read Strategic Priorities DB (`f551ee8631a54c488c395dae5acf0875`).
 2. Resolve the meeting document using the Document Link Priority Chain.
    - If doc found: read it, apply the two-pass rule, check your action items store for open items, add to Documents to Review if not already there.
    - If no doc found: flag gap, build context-based agenda.

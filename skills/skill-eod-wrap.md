@@ -11,7 +11,7 @@
 ---
 
 ## Preconditions
-1. Fetch Operating Rules page — hard gate. Halt if unreachable.
+1. Fetch Operating Rules page (`35bcdb3513368176a3a6f9c18ac43233`) — hard gate. Halt if unreachable.
 2. Call `user_time_v0` — mandatory before any Zoom query or timestamp write. Establishes the user's current local timezone. Never assume PST.
 3. **Determine target date list:**
    - Manual trigger with a specific date: process that single date.
@@ -43,7 +43,7 @@
 
 ### Phase 3 — Locate or Create the Notion Daily Page
 1. Compute the target date string in format `YYYY-Mon-DD` (e.g., `2026-Apr-28`).
-2. Fetch the Meeting Briefs root page. Scan child pages for exact title match.
+2. Fetch Meeting Briefs root page (`35bcdb351336817f990ede78e968f26f`). Scan child pages for exact title match.
 3. If not found in root: fetch the Archived Briefs page. Scan child pages for the same title.
 4. **If still not found:** Create a new daily page titled `[YYYY-Mon-DD]` under Meeting Briefs root now. Record its URL.
 5. **If found in either location:** Record the daily page URL. Fetch its full content to enumerate all subpage titles (individual meeting brief pages).

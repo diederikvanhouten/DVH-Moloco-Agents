@@ -13,7 +13,7 @@ description: Publishes Notion skills from the Chief of Staff operating system to
 
 Before starting, verify two things:
 
-**1. Notion access.** Fetch the Operating Rules page (`319cdb351336810692a3c98c5f1099bb`). If unreachable, halt and flag — do not proceed with a cached or assumed list of skills.
+**1. Notion access.** Fetch the Operating Rules page (`35bcdb3513368176a3a6f9c18ac43233`). If unreachable, halt and flag — do not proceed with a cached or assumed list of skills.
 
 **2. GitHub authentication.** Check whether `GITHUB_TOKEN` is set in the environment (`echo $GITHUB_TOKEN`). If absent, check for a `gh` CLI session (`gh auth status`). If neither is available, halt and tell the user: "No GitHub credentials found. Please set `GITHUB_TOKEN` as an environment variable (a Personal Access Token with `repo` scope) and retry."
 

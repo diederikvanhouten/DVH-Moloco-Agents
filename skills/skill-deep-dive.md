@@ -29,7 +29,7 @@ Every deep dive follows a two-phase workflow unless you explicitly request a ful
 ---
 
 ## Preconditions
-1. Fetch your operating rules page — hard gate. Halt if unreachable.
+1. Fetch Operating Rules page (`35bcdb3513368176a3a6f9c18ac43233`) — hard gate. Halt if unreachable.
 2. Search your docs system for an existing page matching the topic (semantic similarity, ~70% threshold).
    - **If found:** overwrite the existing page content entirely. Do not create a new page.
    - **If not found:** create a new page with title format `[YYYY-Mon-DD] — [Topic] — [Audience]`.
