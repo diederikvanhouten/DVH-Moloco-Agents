@@ -8,14 +8,64 @@ Two sections: (1) full catalog of all sources DVH has access to; (2) initiative-
 
 ### Slack — Channels
 
+#### General / Cross-cutting
+
 | Channel | Type | ID |
 |---------|------|----|
 | #advertiser-controls-team | Private | C09CBNQ9H89 |
-| #android-performance-weekly-2026 | Private | C0B1405RNBD |
 | #mau-2026 | Public | C0APAQ6B1SS |
 | #tmp-apis-and-owners | Private | — |
 | #searchlight-pm-tpm | Private | — |
 | #office-newyork | Public | — |
+
+#### tKPI GA Launch
+
+| Channel | Type | ID |
+|---------|------|----|
+| #tkpi-pne | Private | C0AA1PLBK5L |
+| #dsp-xfn-tkpi | Private | C090J7F20AV |
+| #tkpi-ml-model | Public | C0A90CDQSLA |
+| #tkpi-alpha-sales | Public | C099HAM841E |
+| #tmp-tkpi-process-improvements | Public | C0AF3QVQ815 |
+
+#### IAA GA Launch
+
+| Channel | Type | ID |
+|---------|------|----|
+| #iaa-xfn | Private | C0A8URG6A10 |
+| #iaa-core-lt | Private | C09MJ2VQGJZ |
+| #iaa-network-eng-prod | Private | C09EMC9RB18 |
+| #iaa-network-xfn | Private | C09L48R88P5 |
+| #iaa_global_activation | Public | C06CS9A5CKH |
+| #tmp-iaa-loop-specific-template | Private | C0B1V9RQJTZ |
+
+#### Remarketing (RE)
+
+| Channel | Type | ID |
+|---------|------|----|
+| #ml-reengagement | Public | C01LJ5MGC3H |
+| #retargeting-discussion-group | Public | C08CP9H27E3 |
+
+#### Campaign Excellence / Blueprint
+
+| Channel | Type | ID |
+|---------|------|----|
+| #dsp-q2-okr-blueprint-campaign-excellence | Private | C0AQ5G16Z4Z |
+
+#### Identity & Signals (all KRs)
+
+| Channel | Type | ID |
+|---------|------|----|
+| #identity-core-and-ctv | Public | C0ARNCRADU5 |
+| #identity_v5 | Public | C07NN53UPHV |
+| #owner-dsp-identity | Public | C07A6VBN1SB |
+| #tmp-pltv-signal-2026-q2-okrs | Private | C0ATAEM67CK |
+
+#### Bidding Control Tower / Android Performance
+
+| Channel | Type | ID |
+|---------|------|----|
+| #android-performance-weekly-2026 | Private | C0B1405RNBD |
 
 ### Slack — DMs
 
@@ -83,17 +133,17 @@ Used by skills to know where to pull updates for each strategic priority.
 
 | Priority | Primary Sources |
 |----------|----------------|
-| tKPI GA Launch | Q2 2026 OKRs, Weekly Product Metrics Review, #advertiser-controls-team |
-| IAA GA Launch | Q2 2026 OKRs, Weekly Product Metrics Review, #advertiser-controls-team |
-| Remarketing $160M GAS ARR | Q2 2026 OKRs, DM: Doug Pereira, DM: Guillem Sanchez |
+| tKPI GA Launch | #tkpi-pne, #dsp-xfn-tkpi, #tkpi-ml-model, #tkpi-alpha-sales, #tmp-tkpi-process-improvements, Q2 2026 OKRs, Weekly Product Metrics Review |
+| IAA GA Launch | #iaa-xfn, #iaa-core-lt, #iaa-network-eng-prod, #iaa-network-xfn, #iaa_global_activation, #tmp-iaa-loop-specific-template, Q2 2026 OKRs, Weekly Product Metrics Review |
+| Remarketing $160M GAS ARR | #ml-reengagement, #retargeting-discussion-group, Q2 2026 OKRs, DM: Doug Pereira, DM: Guillem Sanchez |
 | Bidding Control Tower | #android-performance-weekly-2026, Android Performance Weekly doc, ML/RS/Bidder Quality Weekly Sync |
-| Campaign Excellence / Blueprint | Q2 2026 OKRs, DM: Santiago Melo, Group DM: Ethan Kottke, Sasha Clarke, Santiago Melo |
-| Simplified Campaign Experience / Next-Gen Ads Manager | Q2 2026 OKRs, DM: Ernest Yip |
-| Event SDK MVP | Signals & Identity Strategy Brief, DM: Ruoyu Zhu |
-| Person & Household Identity Graph | Signals & Identity Strategy Brief, ML/RS/Bidder Quality Weekly Sync, DM: Ruoyu Zhu |
-| pLTV Alpha + Signal Utilization Infra | Signals & Identity Strategy Brief, Explab, ML/RS/Bidder Quality Weekly Sync |
-| Key Experiments | Explab, ML/RS/Bidder Quality Weekly Sync, DM: Camille Wormser |
-| Modeling Progress | Explab, ML/RS/Bidder Quality Weekly Sync, DM: Camille Wormser |
+| Campaign Excellence / Blueprint | #dsp-q2-okr-blueprint-campaign-excellence, Q2 2026 OKRs, DM: Santiago Melo, Group DM: Ethan Kottke / Sasha Clarke / Santiago Melo |
+| Simplified Campaign Experience / Next-Gen Ads Manager | Q2 2026 OKRs, DM: Ernest Yip, #advertiser-controls-team |
+| Event SDK MVP | #identity-core-and-ctv, #owner-dsp-identity, Signals & Identity Strategy Brief, DM: Ruoyu Zhu |
+| Person & Household Identity Graph | #identity_v5, #identity-core-and-ctv, #owner-dsp-identity, Signals & Identity Strategy Brief, ML/RS/Bidder Quality Weekly Sync, DM: Ruoyu Zhu |
+| pLTV Alpha + Signal Utilization Infra | #tmp-pltv-signal-2026-q2-okrs, Signals & Identity Strategy Brief, Explab, ML/RS/Bidder Quality Weekly Sync |
+| Key Experiments | Explab, ML/RS/Bidder Quality Weekly Sync, #android-performance-weekly-2026, DM: Camille Wormser |
+| Modeling Progress | Explab, ML/RS/Bidder Quality Weekly Sync, #tkpi-ml-model, DM: Camille Wormser |
 
 ---
 
