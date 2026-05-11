@@ -62,6 +62,12 @@ Two sections: (1) full catalog of all sources DVH has access to; (2) initiative-
 | #owner-dsp-identity | Public | C07A6VBN1SB |
 | #tmp-pltv-signal-2026-q2-okrs | Private | C0ATAEM67CK |
 
+#### Campaign Experience / Next-Gen Ads Manager
+
+| Channel | Type | ID |
+|---------|------|----|
+| #ads-manager-nextgen | Public | C0AS34G9MU4 |
+
 #### Bidding Control Tower / Android Performance
 
 | Channel | Type | ID |
@@ -139,7 +145,7 @@ Used by skills to know where to pull updates for each strategic priority.
 | Remarketing $160M GAS ARR | #re-working-group-internal, #ml-reengagement, #retargeting-discussion-group, Q2 2026 OKRs, DM: Doug Pereira, DM: Guillem Sanchez |
 | Bidding Control Tower | #android-performance-weekly-2026, Android Performance Weekly doc, ML/RS/Bidder Quality Weekly Sync |
 | Campaign Excellence / Blueprint | #dsp-q2-okr-blueprint-campaign-excellence, Q2 2026 OKRs, DM: Santiago Melo, Group DM: Ethan Kottke / Sasha Clarke / Santiago Melo |
-| Simplified Campaign Experience / Next-Gen Ads Manager | Q2 2026 OKRs, DM: Ernest Yip, #advertiser-controls-team |
+| Simplified Campaign Experience / Next-Gen Ads Manager | #ads-manager-nextgen, Q2 2026 OKRs, DM: Ernest Yip |
 | Event SDK MVP | #identity-core-and-ctv, #owner-dsp-identity, Signals & Identity Strategy Brief, DM: Ruoyu Zhu |
 | Person & Household Identity Graph | #identity_v5, #identity-core-and-ctv, #owner-dsp-identity, Signals & Identity Strategy Brief, ML/RS/Bidder Quality Weekly Sync, DM: Ruoyu Zhu |
 | pLTV Alpha + Signal Utilization Infra | #tmp-pltv-signal-2026-q2-okrs, Signals & Identity Strategy Brief, Explab, ML/RS/Bidder Quality Weekly Sync |
