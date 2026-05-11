@@ -18,6 +18,7 @@ Skills are available as slash commands from `.claude/commands/`. Invoke them by 
 | `/eod-wrap` | "EOD wrap" / "Wrap up today" | Process completed Zoom meetings, match to Notion briefs, extract action items |
 | `/slack-memo` | "Send a note to [person] on [decision]" | ≤60-word Slack alignment memo, closes with a confirmation question |
 | `/notion-to-github` | "Push skills to GitHub" / "Sync Notion skills" | Export generic skills from Notion to this repo with sensitivity gating |
+| `/strategic-priorities` | "Add a strategic priority" / "Audit priorities" | Add or update Strategic Priorities DB entries — prompts for sources, updates sources.md |
 | `/system-maintenance` | "Add a capability / fix a rule" | Governs how this operating system is extended and maintained |
 
 ## Adapting skills to your stack
