@@ -43,6 +43,7 @@ Two sections: (1) full catalog of all sources DVH has access to; (2) initiative-
 
 | Channel | Type | ID |
 |---------|------|----|
+| #re-working-group-internal | Private | C09SRKSD8GY |
 | #ml-reengagement | Public | C01LJ5MGC3H |
 | #retargeting-discussion-group | Public | C08CP9H27E3 |
 
@@ -135,7 +136,7 @@ Used by skills to know where to pull updates for each strategic priority.
 |----------|----------------|
 | tKPI GA Launch | #tkpi-pne, #dsp-xfn-tkpi, #tkpi-ml-model, #tkpi-alpha-sales, #tmp-tkpi-process-improvements, Q2 2026 OKRs, Weekly Product Metrics Review |
 | IAA GA Launch | #iaa-xfn, #iaa-core-lt, #iaa-network-eng-prod, #iaa-network-xfn, #iaa_global_activation, #tmp-iaa-loop-specific-template, Q2 2026 OKRs, Weekly Product Metrics Review |
-| Remarketing $160M GAS ARR | #ml-reengagement, #retargeting-discussion-group, Q2 2026 OKRs, DM: Doug Pereira, DM: Guillem Sanchez |
+| Remarketing $160M GAS ARR | #re-working-group-internal, #ml-reengagement, #retargeting-discussion-group, Q2 2026 OKRs, DM: Doug Pereira, DM: Guillem Sanchez |
 | Bidding Control Tower | #android-performance-weekly-2026, Android Performance Weekly doc, ML/RS/Bidder Quality Weekly Sync |
 | Campaign Excellence / Blueprint | #dsp-q2-okr-blueprint-campaign-excellence, Q2 2026 OKRs, DM: Santiago Melo, Group DM: Ethan Kottke / Sasha Clarke / Santiago Melo |
 | Simplified Campaign Experience / Next-Gen Ads Manager | Q2 2026 OKRs, DM: Ernest Yip, #advertiser-controls-team |
